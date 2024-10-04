@@ -7,6 +7,17 @@ id = "process1"
 name = "To Do"
 
   [[processes.tasks]]
+  id = "h3qrx6b8zb3rkr34kzrosqm0"
+  title = "Setting up the database for toxicity"
+  description = "<p>As per dissucsion we have made, some tables to be implemented for now but could be adding more later on are:</p><p></p><p></p><p>Toxcity table</p><p>Information about the toxic effects, exposure routes, dosage, and safety information.</p><p></p><p><strong>Material Safety Data Sheet</strong> (MSDS) table</p><p>could include</p><p>Product name</p><p>Manufacturer</p><p>CAS #</p><p></p><p>Periodic table</p><p>properties all including for each element</p><p></p><p></p><p></p>"
+  tag = "backlog"
+  linkFiles = [ "/agenda.txt" ]
+  dueDate = ""
+  checkList = [ ]
+  priority = "High"
+  linkCommits = [ ]
+
+  [[processes.tasks]]
   id = "task1"
   title = "This is a new feature"
   description = ""
