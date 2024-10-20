@@ -7,20 +7,22 @@ id = "process1"
 name = "To Do"
 
   [[processes.tasks]]
-  id = "h3qrx6b8zb3rkr34kzrosqm0"
-  title = "Setting up the database for toxicity"
-  description = "<p>As per dissucsion we have made, some tables to be implemented for now but could be adding more later on are:</p><p></p><p></p><p>Toxcity table</p><p>Information about the toxic effects, exposure routes, dosage, and safety information.</p><p></p><p><strong>Material Safety Data Sheet</strong> (MSDS) table</p><p>could include</p><p>Product name</p><p>Manufacturer</p><p>CAS #</p><p></p><p>Periodic table</p><p>properties all including for each element</p><p></p><p>Products table</p><p>could be cleaning supplies by certain manufactures</p><p></p><p></p><p></p>"
+  id = "shq2vs7fmc8dbbue6do1wuse"
+  title = "Schemas"
+  description = "We need a handful of schema objects that can be played with / called."
   tag = "backlog"
-  linkFiles = [ "/agenda.txt" ]
+  linkFiles = [ ]
   dueDate = ""
   checkList = [ ]
-  priority = "High"
+  priority = ""
   linkCommits = [ ]
 
   [[processes.tasks]]
-  id = "task1"
-  title = "This is a new feature"
-  description = ""
+  id = "vrcik4selb0uhw3fnpwwf5lf"
+  title = "Data Entry"
+  description = """
+We need to start writing some sql files for inserting.
+Start inserting entities that have NO foreign keys in them."""
   tag = "backlog"
   linkFiles = [ ]
   dueDate = ""
@@ -33,17 +35,27 @@ id = "process2"
 name = "In Progress"
 
   [[processes.tasks]]
-  id = "task2"
-  title = "This is a bug should be repair"
-  description = ""
-  tag = "bug"
+  id = "izd38qgt9aesss5ejez5x0fa"
+  title = "ERD JSON"
+  description = "<p>Setting up an erd on the json<br><br>-Connor</p>"
+  tag = "backlog"
   linkFiles = [ ]
   dueDate = ""
   checkList = [ ]
-  priority = ""
+  priority = "High"
   linkCommits = [ ]
 
 [[processes]]
 id = "process3"
 name = "Done"
-tasks = [ ]
+
+  [[processes.tasks]]
+  id = "spn5l2tbm1oimolyqpmpepuj"
+  title = "Research Topic"
+  description = "We need to find out what we're going to base our database around."
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
