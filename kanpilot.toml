@@ -5,6 +5,22 @@ skipFiles = [ ".gitignore", "package.json" ]
 [[processes]]
 id = "process1"
 name = "To Do"
+tasks = [ ]
+
+[[processes]]
+id = "process2"
+name = "In Progress"
+
+  [[processes.tasks]]
+  id = "vrcik4selb0uhw3fnpwwf5lf"
+  title = "Data Entry"
+  description = "<p>1) Company, Brand, Primary Category - Mike</p><p>2) Sub Category, Product -</p><p>3) Chemical, Chemical List - <br><br>-Connor</p>"
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
 
   [[processes.tasks]]
   id = "shq2vs7fmc8dbbue6do1wuse"
@@ -17,22 +33,20 @@ name = "To Do"
   priority = ""
   linkCommits = [ ]
 
+[[processes]]
+id = "process3"
+name = "Done"
+
   [[processes.tasks]]
-  id = "vrcik4selb0uhw3fnpwwf5lf"
-  title = "Data Entry"
-  description = """
-We need to start writing some sql files for inserting.
-Start inserting entities that have NO foreign keys in them."""
+  id = "spn5l2tbm1oimolyqpmpepuj"
+  title = "Research Topic"
+  description = "We need to find out what we're going to base our database around."
   tag = "backlog"
   linkFiles = [ ]
   dueDate = ""
   checkList = [ ]
   priority = ""
   linkCommits = [ ]
-
-[[processes]]
-id = "process2"
-name = "In Progress"
 
   [[processes.tasks]]
   id = "izd38qgt9aesss5ejez5x0fa"
@@ -45,14 +59,10 @@ name = "In Progress"
   priority = "High"
   linkCommits = [ ]
 
-[[processes]]
-id = "process3"
-name = "Done"
-
   [[processes.tasks]]
-  id = "spn5l2tbm1oimolyqpmpepuj"
-  title = "Research Topic"
-  description = "We need to find out what we're going to base our database around."
+  id = "qn0nzucmgr5qor0bmiyuj1h3"
+  title = "PostgreSQL CREATE Script"
+  description = "<p>Need a sql script that creates the database.</p><p></p><p>-Connor</p>"
   tag = "backlog"
   linkFiles = [ ]
   dueDate = ""

@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://catalog.data.gov/
+HostUrl=https://og-production-open-data-chelseama-892364687672.s3.amazonaws.com/resources/57da6c9a-41a7-44b0-ab8d-815ff2cd5913/cscpopendata.csv?Content-Type=text%2Fcsv&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJJIENTAPKHZMIPXQ%2F20241009%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241009T182436Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&X-Amz-Signature=a4bf37c74c02a132ddde1407b64389f927c3e9b0d2db19aa63538a48b9f33995
