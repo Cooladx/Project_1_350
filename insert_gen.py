@@ -28,11 +28,11 @@ def csv_to_sql(csv_file_path, sql_file_path, table_name, column_mapping):
 # Copy and paste the generated insert statements into the correct position in the conglomerate insert file
 # ==============================
 csv_file_path = 'cscpopendata.csv' # set the path to the CSV file
-sql_file_path = 'temp_insert_statements.sql' # set the path to the SQL insert file
-table_name = '"Primary_Category"' # set the table name KEEP SAME QUOTATIONS
+sql_file_path = 'Chem_insert_statements.sql' # set the path to the SQL insert file
+table_name = '"Chemical"' # set the table name KEEP SAME QUOTATIONS
 column_mapping = {
-    'PrimaryCategoryId': '"Category_ID"',
-    'PrimaryCategory': '"Category_Name"'
+     'ChemicalId': '"Chemical ID"',
+    'ChemicalName': '"Chemical Name"'
 }  # Specify the mapping from CSV columns to table columns
 
 csv_to_sql(csv_file_path, sql_file_path, table_name, column_mapping)
