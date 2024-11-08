@@ -10,3 +10,21 @@ BEGIN
     WHERE cl."Chemical_ID" = chemical_id;
 END;
 $$;
+
+CREATE OR REPLACE FUNCTION get_chemical_name_by_product_id(product_id INTEGER)
+RETURNS TEXT
+AS $$
+DECLARE
+    chemical_name TEXT;
+BEGIN
+    SELECT c.Chemical_Name
+    INTO chemical_name
+    FROM public.Chemical_List cl
+    JOIN public.Chemical c ON cl.Chemical_ID = c.Chemical_ID
+    WHERE cl.Product_ID = product_id;
+
+    RETURN chemical_name;
+END;
+$$
+LANGUAGE plpgsql;
+
