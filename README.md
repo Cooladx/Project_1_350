@@ -33,7 +33,7 @@ CREATE DATABASE (whatever DB name you choose here);
 \l (To check if Database was actually added)
 \q (exit)
 
-CREATE DATABASE northwind;
+CREATE DATABASE (choose name here);
 
 
 psql -U (username) -d (database) -h localhost
