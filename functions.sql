@@ -28,3 +28,24 @@ END;
 $$
 LANGUAGE plpgsql;
 
+
+CREATE OR REPLACE FUNCTION get_company_products()
+RETURNS TABLE (
+    company_name VARCHAR,
+    product_name VARCHAR,
+    product_id INTEGER
+) AS $$
+BEGIN
+    RETURN QUERY
+    SELECT 
+        "Company"."Company_Name",
+        "Product"."Product_Name",
+        "Product"."Product_ID"
+    FROM 
+        public."Company"
+    JOIN 
+        public."Product" ON "Company"."Company_ID" = "Product"."Company_ID"
+    ORDER BY 
+        "Company"."Company_Name", "Product"."Product_Name";
+END;
+$$ LANGUAGE plpgsql;
