@@ -10,28 +10,7 @@ tasks = [ ]
 [[processes]]
 id = "process2"
 name = "In Progress"
-
-  [[processes.tasks]]
-  id = "vrcik4selb0uhw3fnpwwf5lf"
-  title = "Data Entry"
-  description = "<p>1) Company, Brand, Primary Category - Mike</p><p>2) Sub Category, Product -</p><p>3) Chemical, Chemical List - <br><br>-Connor</p>"
-  tag = "backlog"
-  linkFiles = [ ]
-  dueDate = ""
-  checkList = [ ]
-  priority = ""
-  linkCommits = [ ]
-
-  [[processes.tasks]]
-  id = "shq2vs7fmc8dbbue6do1wuse"
-  title = "Schemas"
-  description = "We need a handful of schema objects that can be played with / called."
-  tag = "backlog"
-  linkFiles = [ ]
-  dueDate = ""
-  checkList = [ ]
-  priority = ""
-  linkCommits = [ ]
+tasks = [ ]
 
 [[processes]]
 id = "process3"
@@ -63,6 +42,28 @@ name = "Done"
   id = "qn0nzucmgr5qor0bmiyuj1h3"
   title = "PostgreSQL CREATE Script"
   description = "<p>Need a sql script that creates the database.</p><p></p><p>-Connor</p>"
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "shq2vs7fmc8dbbue6do1wuse"
+  title = "Schemas"
+  description = "We need a handful of schema objects that can be played with / called."
+  tag = "backlog"
+  linkFiles = [ ]
+  dueDate = ""
+  checkList = [ ]
+  priority = ""
+  linkCommits = [ ]
+
+  [[processes.tasks]]
+  id = "vrcik4selb0uhw3fnpwwf5lf"
+  title = "Data Entry"
+  description = "<p>1) Company, Brand, Primary Category - Mike</p><p>2) Sub Category, Product -</p><p>3) Chemical, Chemical List - <br><br>-Connor</p>"
   tag = "backlog"
   linkFiles = [ ]
   dueDate = ""
