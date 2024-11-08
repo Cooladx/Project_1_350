@@ -43,9 +43,25 @@ psql -U (username) -d (database) -h localhost
 \q (exit)
 
 
-# The other way of starting the project is to use the backup file that we have submitted which is an SQL file for loading up the DataBase.
+
+
+
+# The other way of starting the project is to use the backup file that
+# we have submitted which is an SQL file for loading up the DataBase.
+# The file is called toxinsDump
+
+
 ```
+
+<h2> Running ToxinsDump</h2>
+
+- Start pgAdmin
+- Create Database by right-clicking on Databases on Object Explorer
+- Give it whatever name and right-click on that database you made
+- click Restore and enter in the filename either typing or looking through your directory
 
 Now load up PGadmin and you should be able to see your database.
 
-**Note:** Don't try to load this via pgAdmin with the query tool as there will be an error stopping it with duplicate key values. This is why PostgreSQL is recommended as it will still show the error, but it will be ignored and still proceed with inserting the data unlike the query tool stopping you in pgAdmin.
+<hr>
+
+**Note:** Don't try to load the insert script via pgAdmin with the query tool as there will be an error stopping it with duplicate key values. This is why PostgreSQL is recommended as it will still show the error, but it will be ignored and still proceed with inserting the data unlike the query tool stopping you in pgAdmin.
